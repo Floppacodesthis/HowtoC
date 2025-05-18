@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+//NOTE: THE EXE WILL BE FLAGGED BY WINDOWS. PRESS 'MORE INFO' THEN 'RUN ANYWAY'
 int main()
 {
     double answer = 0.0;
