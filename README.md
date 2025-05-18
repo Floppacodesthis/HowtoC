@@ -1,3 +1,8 @@
-HOW TO C??? (I don't know what I'm doing)
+# HOW TO C??? (I don’t know what I’m doing)
 
-NOTE: THE EXE(s) WILL BE FLAGGED BY WINDOWS. PRESS 'MORE INFO' THEN 'RUN ANYWAY
+---
+
+NOTE: THE EXE(s) WILL BE FLAGGED BY WINDOWS  
+Just hit **MORE INFO** then **RUN ANYWAY** if you wanna run them. No promises tho.
+
+---
