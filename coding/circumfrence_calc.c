@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <windows.h>
 
 int main()
 {
@@ -23,6 +24,6 @@ int main()
     printf("Area: %.2lfcm\n", area);
     printf("Surface Area: %.2lfcm\n", surfaceArea);
     printf("Volume: %.2lfcm\n", volume);
-
+    system("pause");
     return 0;
 }
