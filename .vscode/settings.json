@@ -1,5 +1,8 @@
 {
     "code-runner.runInTerminal": true,
     "code-runner.clearPreviousOutput": false,
-    "code-runner.saveFileBeforeRun": true
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "cpp": "Remove-Item ./main.exe -ErrorAction SilentlyContinue; g++ -Wall -std=c++17 -o main \"$fileName\"; if ($?) { ./main }"
+    }
 }
