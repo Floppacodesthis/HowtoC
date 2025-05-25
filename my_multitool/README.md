@@ -5,12 +5,12 @@
   - Show saved networks
   - Get wifi password of any saved network
 - Device power controls
-  -shutdown
-  -restart
-  -hibernate
-  -logout
+  - shutdown
+  - restart
+  - hibernate
+  - logout
 - Show tasks
-  -Print all running tasks to the terminal
+  - Print all running tasks to the terminal
 - Open "coding starter-pack"
   - Opens: chatgpt, youtube, github, Visual Studio Code, my custom terminal and file explorer
 ---
