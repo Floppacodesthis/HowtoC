@@ -8,6 +8,8 @@ Oh, and some exe's will close automatically after the program runs because I for
 
 ---
 # WEBSITE UP AND RUNNING
-[Click to waste your time](https://howtoc.netlify.app/)
-
+[Wow look, I know HTML](https://howtoc.netlify.app/)
+Big thanks to netlify for supporting my lack of funds.
 ---
+## Download multitool here:
+[multitool v1.0](https://github.com/Floppacodesthis/HowtoC/blob/main/my_multitool/executables/main.exe)
