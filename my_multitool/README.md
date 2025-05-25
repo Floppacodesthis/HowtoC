@@ -16,6 +16,4 @@
 ---
 **Obviously not a "real" multitool**
 Just a fun c project
-
-## Website coming soon(for the whole repo)
 ---
