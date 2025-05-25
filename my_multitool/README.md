@@ -15,5 +15,6 @@
   - Opens: chatgpt, youtube, github, Visual Studio Code, my custom terminal and file explorer
 ---
 **Obviously not a "real" multitool**
-Just a fun c project
+---
+###Just a fun c project
 ---
