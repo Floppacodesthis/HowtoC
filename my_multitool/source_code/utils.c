@@ -7,42 +7,61 @@ void menu() {
     system("title MULTI TOOL");
     system("cls");
     system("color a");
-    printf("\n                  |MULTI-TOOL|\n");
-    printf("|====================================================|\n");
-    printf("[1]  |-Wifi operations                               |\n");
-    printf("        |- Show saved networks                       |\n");
-    printf("        |-- Get wifi password of a saved network     |\n");
-    printf("[2]  |--Shutdown, restart and more                   |\n");
-    printf("        |- shutdown                                  |\n");
-    printf("        |--- restart                                 |\n");
-    printf("        |-----hibernate                              |\n");
-    printf("        |-------log-out                              |\n");
-    printf("[3]  |----Show tasks                                 |\n");
-    printf("        |- print all running tasks to the terminal   |\n");
-    printf("[4]  |-----Open coding starter-pack                  |\n");
-    printf("[5]  |---------Exit                                  |\n");
-    printf("|====================================================|");
-    printf("\nChoose an operation(by number): ");
+    system("chcp 65001 >nul");
+
+    printf("\n                 ╔═[ MULTI-TOOL ]═╗\n");
+    printf("  ╭───────────────────────────────────────────────────╮\n");
+    printf("  │ [1] Wifi Operations                               │\n");
+    printf("  │   ├─ Show saved networks                          │\n");
+    printf("  │   └─ Get wifi password of a saved network         │\n");
+    printf("  │                                                   │\n");
+    printf("  │ [2] Power Options                                 │\n");
+    printf("  │   ├─ Shutdown                                     │\n");
+    printf("  │   ├─ Restart                                      │\n");
+    printf("  │   ├─ Hibernate                                    │\n");
+    printf("  │   └─ Log out                                      │\n");
+    printf("  │                                                   │\n");
+    printf("  │ [3] Task Viewer                                   │\n");
+    printf("  │   └─ Print all running tasks                      │\n");
+    printf("  │                                                   │\n");
+    printf("  │ [4] Coding Starter Pack                           │\n");
+    printf("  │   └─ Open dev environment tools                   │\n");
+    printf("  |                                                   |");
+    printf("  | [5] Multitool custom terminal  (WIP)              |");
+    printf("  │   └─ Run custom multitool terminal                │\n");
+    printf("  |                                                   |");
+    printf("  │ [6] Exit                                          │\n");
+    printf("  ╰───────────────────────────────────────────────────╯\n");
+    printf("\nChoose an operation (by number): ");
 }
+
 
 void menu_wifi() {
-    printf("\n>wifi operations<\n");
-    printf("[1]-|Show network history\n");
-    printf("[2]---|Get wifi pwd of any network you've ever connected to\n");
-    printf("[3]-----|Help\n");
-    printf("[4]-------|Exit\n");
+    system("color a");
+    printf("\n           ╔═[ WIFI OPERATIONS ]═╗            \n");
+    printf("  ╭────────────────────────────────────────────╮\n");
+    printf("  │ [1] ├─ Show network history                │\n");
+    printf("  │ [2] ├─ Get password of saved network       │\n");
+    printf("  │ [3] ├─ Help                                │\n");
+    printf("  │ [4] └─ Exit                                │\n");
+    printf("  ╰────────────────────────────────────────────╯\n");
 }
 
+
 void menu_power() {
-    printf("\n>power operations<\n");
-    printf("[1]-|Shutdown\n");
-    printf("[2]---|Restart\n");
-    printf("[3]-----|Logout\n");
-    printf("[4]-------|Hibernate\n");
-    printf("[5]---------|Help\n");
-    printf("[6]-----------|Exit\n");
-    printf("\nChoose operation(number):  \n");
+    system("color a");
+    printf("\n           ╔═[ POWER OPERATIONS ]═╗           \n");
+    printf("  ╭────────────────────────────────────────────╮\n");
+    printf("  │ [1] ├─ Shutdown                            │\n");
+    printf("  │ [2] ├─ Restart                             │\n");
+    printf("  │ [3] ├─ Logout                              │\n");
+    printf("  │ [4] ├─ Hibernate                           │\n");
+    printf("  │ [5] ├─ Help                                │\n");
+    printf("  │ [6] └─ Exit                                |\n");
+    printf("  ╰────────────────────────────────────────────╯\n");
+    printf("\nChoose operation (by number): ");
 }
+
 
 void restart() {
     system("shutdown /r /t 0");
@@ -65,10 +84,10 @@ void hibernate() {
 }
 
 void open_cmd() {
+    system("start firefox");
     system("start https://chatgpt.com");
     system("start https://youtube.com");
     system("start https://github.com");
-    system("start about:newtab");
     system("code");
     system("start C:\\Users\\Samgi\\Desktop\\cmd.lnk");
     Sleep(500);
@@ -85,14 +104,20 @@ void get_password(const char *profile) {
     snprintf(command, sizeof(command), "netsh wlan show profile \"%s\" key=clear", profile);
     system(command);
 }
+void networks_help(){
+    system("netsh wlan");
+}
 
 void menu_tasks() {
-    printf("\n                               |> task list <|\n");
-    printf("=============================================================================|");
+    system("color a");
+    printf("\n                         ╔═[ TASK LIST ]═╗\n");
+    printf("  ╭──────────────────────────────────────────────────────────────────────────────╮\n");
     Sleep(1000);
     system("tasklist");
+    printf("  ╰──────────────────────────────────────────────────────────────────────────────╯\n");
     Sleep(3000);
 }
+
 
 void menu_cmd() {
     printf("\nLoading...\n");
@@ -100,3 +125,5 @@ void menu_cmd() {
     open_cmd();
     Sleep(3000);
 }
+
+
