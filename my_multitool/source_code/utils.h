@@ -15,7 +15,9 @@ void open_cmd();
 
 void show_networks();
 void get_password(const char *profile);
+void networks_help();
 void menu_tasks();
 void menu_cmd();
 
 #endif // UTILS_H
+
