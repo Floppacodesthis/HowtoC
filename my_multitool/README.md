@@ -18,3 +18,5 @@
 ---
 ### Just a fun c project
 ---
+[Multi-tool v1.0](https://github.com/Floppacodesthis/HowtoC/blob/raw/main/my_multitool/executables/multitoolv1.0.exe)  
+[Multi-tool v1.5](https://github.com/Floppacodesthis/HowtoC/blob/raw/main/my_multitool/executables/multitoolv1.5.exe)
